@@ -23,8 +23,10 @@ namespace App_BD_SQLite.View
             try
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomeDetail)));
+                //oculta menu
                 IsPresented = false;
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
@@ -35,8 +37,10 @@ namespace App_BD_SQLite.View
             try
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(CadastrarDetail)));
+                //oculta menu
                 IsPresented = false;
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
@@ -47,6 +51,7 @@ namespace App_BD_SQLite.View
             try
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ListarDetail)));
+                //oculta menu
                 IsPresented = false;
             }
             catch (Exception ex)

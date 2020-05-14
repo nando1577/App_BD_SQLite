@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App_BD_SQLite.View.PageMenu">
+             x:Class="App_BD_SQLite.View.PageMenu" IsPresented="True">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <Grid BackgroundColor="LightSeaGreen">
@@ -36,11 +36,12 @@
                 </StackLayout>
             </Grid>
         </ContentPage>
+            
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>
         <NavigationPage>
-            
+
         </NavigationPage>
     </MasterDetailPage.Detail>
 </MasterDetailPage>

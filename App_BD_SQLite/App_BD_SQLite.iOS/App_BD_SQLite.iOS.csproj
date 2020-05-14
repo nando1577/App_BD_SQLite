@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{95812589-CC4A-4EAF-81C9-FD3D633D5CAF}</ProjectGuid>
+    <ProjectGuid>{4AF0997C-59BB-4D13-9903-2A973D1A0A6C}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -132,7 +132,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\App_BD_SQLite\App_BD_SQLite.csproj">
-      <Project>{25D987AB-AC76-462C-BBDC-05EE46FAFCA1}</Project>
+      <Project>{9510DFA7-769E-49D2-AE20-231D8F428375}</Project>
       <Name>App_BD_SQLite</Name>
     </ProjectReference>
   </ItemGroup>

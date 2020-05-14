@@ -6,10 +6,21 @@
              mc:Ignorable="d"
              x:Class="App_BD_SQLite.View.HomeDetail">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="LightSeaGreen">
+            <StackLayout Grid.Row="1"
+                         Spacing="10"
+                         Margin="10"
+                         Padding="10"
+                         BackgroundColor="#F3F2F0">
+                <Label Text="App destinado a Con~exão com Banco de Dados local (SQLite)"
+                       HorizontalOptions="Center"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
+                <Label Text="Principais operações CRUD (Create, Read, Update, Delete)"
+                       HorizontalOptions="Center"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
